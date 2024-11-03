@@ -1,0 +1,42 @@
+.input-group-icon{
+  position: relative;
+  .input-box{
+    padding-left: 2.8rem;
+    vertical-align: middle;
+  }
+  .input-box-icon{
+    position: absolute;
+    top:50%;
+    left: 1rem;
+    color:#212529;
+    transform: translateY(-50%);
+  }
+}
+
+// - form control control
+//
+// General form controls (plus a few specific high-level interventions)
+//
+
+.form-quriar-control {
+  border: $input-border-width solid rgba($gray-500, .5);
+  border-radius: 0.313rem;
+  font-weight: 300;
+  background-color: transparent;
+  padding: .5rem .5rem;
+  &:focus {
+    color: $black;
+    font-weight: 700;
+    background-color: transparent;
+    border-color: 2px solid rgba($warning, .9);
+    outline: 0;
+  }
+}
+
+.form-label {
+  margin-bottom: 1.25rem;
+  @include font-size($form-label-font-size);
+  font-style: $form-label-font-style;
+  font-weight: 400 !important;
+  color: $gray-500;
+}
