@@ -74,6 +74,16 @@ hr {
   opacity: 1;
 }
 
+img {
+mix-blend-mode: multiply;
+
+}
+
+
+
+
+
+
 hr:not([size]) {
   height: 1px;
 }
