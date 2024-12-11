@@ -76,10 +76,12 @@ hr {
 
 img {
 mix-blend-mode: multiply;
+  color:white;
 }
 
 .okay{
 mix-blend-mode: multiply;
+  color:white;
 }
 
 
