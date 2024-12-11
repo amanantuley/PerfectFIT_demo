@@ -76,9 +76,11 @@ hr {
 
 img {
 mix-blend-mode: multiply;
-
 }
 
+.okay{
+mix-blend-mode: multiply;
+}
 
 
 
